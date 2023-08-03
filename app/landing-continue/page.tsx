@@ -162,14 +162,24 @@ const LandingPageContinue: NextPage = () => {
                 className="relative w-4 h-4 overflow-hidden shrink-0"
                 alt=""
                 src="/general--chevron-down.svg"
+                width={100}
+                height={100}
               />
             </div>
-            <Image className="relative w-1.5 h-1.5" alt="" src="/stars.svg" />
+            <Image
+              className="relative w-1.5 h-1.5"
+              alt=""
+              src="/stars.svg"
+              width={100}
+              height={100}
+            />
             <div className="flex flex-row items-center justify-center gap-[4px]">
               <Image
                 className="relative w-4 h-4"
                 alt=""
                 src="/medical--eye.svg"
+                width={100}
+                height={100}
               />
               <div className="relative leading-[150%] font-medium">
                 Accessibility
@@ -178,6 +188,8 @@ const LandingPageContinue: NextPage = () => {
                 className="relative w-4 h-4 overflow-hidden shrink-0"
                 alt=""
                 src="/general--chevron-down1.svg"
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -188,11 +200,19 @@ const LandingPageContinue: NextPage = () => {
               className="relative w-[120px] h-[25.85px]"
               alt=""
               src="/logo.svg"
+              width={100}
+              height={100}
             />
           </div>
           <div className="w-[400px] flex flex-row items-center justify-end gap-[20px]">
             <b className="relative leading-[150%]">Home</b>
-            <Image className="relative w-1.5 h-1.5" alt="" src="/stars1.svg" />
+            <Image
+              className="relative w-1.5 h-1.5"
+              alt=""
+              src="/stars1.svg"
+              width={100}
+              height={100}
+            />
             <div
               className="relative leading-[150%] font-medium cursor-pointer"
               onClick={onFAQTextClick}
@@ -220,36 +240,50 @@ const LandingPageContinue: NextPage = () => {
           className="absolute top-[1279.67px] left-[639.67px] w-[161.16px] h-[8.66px]"
           alt=""
           src="/vector-1.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[1878px] left-[0px] w-[1440px] h-[788px] hidden"
           alt=""
           src="/mask-group1.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[2.78%] w-[10%] top-[20.98%] right-[3.26%] bottom-[76.24%] left-[86.74%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[3.63%] w-[13.06%] top-[0.02%] right-[81.46%] bottom-[96.35%] left-[5.49%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star1.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[1.93%] w-[6.94%] top-[34.79%] right-[85.69%] bottom-[63.28%] left-[7.36%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star2.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[2.74%] w-[9.86%] top-[52.29%] right-[6.39%] bottom-[44.97%] left-[83.75%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star3.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[3.98%] w-[14.31%] top-[70.54%] right-[80.9%] bottom-[25.48%] left-[4.79%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star4.svg"
+          width={100}
+          height={100}
         />
         <div className="absolute top-[4829px] left-[0px] bg-hayya-flat-charcoal-normal w-[1440px] flex flex-col py-10 px-20 box-border items-start justify-start text-3xl text-foundation-flat-basic-white-normal">
           <div className="self-stretch flex flex-row items-start justify-start gap-[120px]">
@@ -285,6 +319,8 @@ const LandingPageContinue: NextPage = () => {
               className="self-stretch relative max-h-full w-[300px] overflow-hidden shrink-0"
               alt=""
               src="/hayya-logo.svg"
+              width={100}
+              height={100}
             />
             <div className="relative leading-[150%] font-medium inline-block w-[300px] shrink-0">
               © 2023 Qatar Hayya | All rights reserved
@@ -294,11 +330,15 @@ const LandingPageContinue: NextPage = () => {
                 className="relative w-6 h-6"
                 alt=""
                 src="/social--facebook.svg"
+                width={100}
+                height={100}
               />
               <Image
                 className="relative w-6 h-6"
                 alt=""
                 src="/social--instagram.svg"
+                width={100}
+                height={100}
               />
               <div className="relative w-6 h-6">
                 <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%]" />
@@ -306,18 +346,28 @@ const LandingPageContinue: NextPage = () => {
                   className="absolute h-[64.47%] w-[91.67%] top-[16.67%] right-[4.17%] bottom-[18.86%] left-[4.17%] max-w-full overflow-hidden max-h-full"
                   alt=""
                   src="/vector.svg"
+                  width={100}
+                  height={100}
                 />
               </div>
               <Image
                 className="relative w-6 h-6"
                 alt=""
                 src="/social--twitter.svg"
+                width={100}
+                height={100}
               />
             </div>
           </div>
         </div>
         <div className="absolute top-[3770px] left-[626px] w-[186px] flex flex-row items-center justify-start gap-[8px] text-lg">
-          <Image className="relative w-4 h-4" alt="" src="/stars2.svg" />
+          <Image
+            className="relative w-4 h-4"
+            alt=""
+            src="/stars2.svg"
+            width={100}
+            height={100}
+          />
           <div className="relative tracking-[0.1em] leading-[20px] uppercase font-black">
             EXPLORE MORE
           </div>
@@ -331,6 +381,8 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[422px] left-[499px] w-[287.4px] h-[40.77px] overflow-hidden"
             alt=""
             src="/badges.svg"
+            width={100}
+            height={100}
           />
           <b className="absolute top-[169px] left-[499px] leading-[44px] inline-block text-darkslategray w-[643px] h-[90px]">
             <p className="m-0">{`Manage all of your activities through `}</p>
@@ -341,11 +393,15 @@ const LandingPageContinue: NextPage = () => {
               className="absolute h-[103.12%] w-[139.43%] top-[-11.05%] right-[-47.45%] bottom-[7.94%] left-[8.02%] max-w-full overflow-hidden max-h-full object-cover"
               alt=""
               src="/screen@2x.png"
+              width={100}
+              height={100}
             />
             <Image
               className="absolute h-[110.35%] w-[154.96%] top-[-14.87%] right-[-54.96%] bottom-[4.53%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
               alt=""
               src="/iphone-x@2x.png"
+              width={100}
+              height={100}
             />
           </div>
           <div className="absolute top-[378px] left-[499px] text-lg leading-[28px] inline-block w-[158px] h-[29px]">
@@ -380,6 +436,8 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[0px] left-[0px] rounded-2xl w-[277.95px] h-[277.58px] object-cover"
             alt=""
             src="/rectangle-291@2x.png"
+            width={100}
+            height={100}
           />
         </div>
         <div className="absolute top-[3097px] left-[445px] w-[279px] h-[399.94px] text-left text-darkgray">
@@ -396,6 +454,8 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[0px] left-[0px] rounded-lg w-[279px] h-[278px] object-cover"
             alt=""
             src="/rectangle-31@2x.png"
+            width={100}
+            height={100}
           />
         </div>
         <div className="absolute top-[3097px] left-[754.23px] w-[278.31px] h-[399.94px] text-left text-darkgray">
@@ -412,6 +472,8 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[0px] left-[0px] rounded-lg w-[278.31px] h-[278.31px] object-cover"
             alt=""
             src="/image@2x.png"
+            width={100}
+            height={100}
           />
         </div>
         <div className="absolute top-[3097px] left-[1063.69px] w-[278.31px] h-[399.94px] text-left text-darkgray">
@@ -428,17 +490,23 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[0px] left-[0px] rounded-lg w-[278.31px] h-[278.31px] object-cover"
             alt=""
             src="/image1@2x.png"
+            width={100}
+            height={100}
           />
           <Image
             className="absolute top-[0px] left-[0.31px] rounded-lg w-[278px] h-[278px] object-cover"
             alt=""
             src="/rectangle-32@2x.png"
+            width={100}
+            height={100}
           />
         </div>
         <Image
           className="absolute top-[3530px] left-[709px] w-14 h-3.5"
           alt=""
           src="/slider.svg"
+          width={100}
+          height={100}
         />
         <div className="absolute top-[1161px] left-[631px] w-[182px] h-5 text-lg">
           <div className="absolute top-[0px] left-[0px] w-[182px] h-5">
@@ -446,6 +514,8 @@ const LandingPageContinue: NextPage = () => {
               className="absolute top-[2px] left-[0px] w-4 h-4"
               alt=""
               src="/stars3.svg"
+              width={100}
+              height={100}
             />
             <div className="absolute top-[0px] left-[28px] tracking-[0.1em] leading-[20px] uppercase font-black">
               How it Goes?
@@ -459,6 +529,8 @@ const LandingPageContinue: NextPage = () => {
                 className="absolute top-[1px] left-[0px] w-4 h-4"
                 alt=""
                 src="/stars4.svg"
+                width={100}
+                height={100}
               />
               <div className="absolute top-[0px] left-[31px] tracking-[0.1em] leading-[20px] uppercase font-black">
                 How to apply?
@@ -472,6 +544,8 @@ const LandingPageContinue: NextPage = () => {
               className="absolute top-[1px] left-[0px] w-4 h-4"
               alt=""
               src="/stars5.svg"
+              width={100}
+              height={100}
             />
             <div className="absolute top-[0px] left-[34px] tracking-[0.1em] leading-[20px] uppercase font-black">
               WHat’s Trending
@@ -483,9 +557,17 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[123px] left-[96px] w-[152.5px] h-0"
             alt=""
             src="/vector-5.svg"
+            width={100}
+            height={100}
           />
           <div className="absolute top-[0px] left-[78px] w-[186px] flex flex-row items-center justify-start gap-[8px]">
-            <Image className="relative w-4 h-4" alt="" src="/stars6.svg" />
+            <Image
+              className="relative w-4 h-4"
+              alt=""
+              src="/stars6.svg"
+              width={100}
+              height={100}
+            />
             <div className="relative tracking-[0.1em] leading-[20px] uppercase font-black">
               What you get
             </div>
@@ -509,11 +591,15 @@ const LandingPageContinue: NextPage = () => {
           className="absolute h-[1.56%] w-[5.63%] top-[26.25%] right-[74.17%] bottom-[72.18%] left-[20.21%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group-7762.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[1.56%] w-[5.63%] top-[26.25%] right-[46.94%] bottom-[72.18%] left-[47.43%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group-4526.svg"
+          width={100}
+          height={100}
         />
         <b className="absolute top-[1481px] left-[632.5px] text-3xl capitalize text-gray-100">
           Fill In three Stages
@@ -526,16 +612,22 @@ const LandingPageContinue: NextPage = () => {
           className="absolute top-[1349px] left-[401px] w-[249px] h-[29.68px]"
           alt=""
           src="/arc-2.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[1421.32px] left-[795px] w-[249px] h-[29.68px]"
           alt=""
           src="/arc-1.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute h-[3.84%] w-[13.82%] top-[25.09%] right-[16.18%] bottom-[71.06%] left-[70%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group-7764.svg"
+          width={100}
+          height={100}
         />
         <div className="absolute top-[1350px] left-[949px] w-[318px] h-[212px] text-3xl">
           <div className="absolute top-[140px] left-[0px] w-[318px] h-[92px]">
@@ -554,6 +646,8 @@ const LandingPageContinue: NextPage = () => {
             className="absolute h-[19.81%] w-[13.21%] top-[12.26%] right-[43.4%] bottom-[67.92%] left-[43.4%] max-w-full overflow-hidden max-h-full"
             alt=""
             src="/travel--plane.svg"
+            width={100}
+            height={100}
           />
         </div>
         <div className="absolute top-[366px] left-[111px] w-[1217.11px] h-[548.17px] text-left text-foundation-flat-basic-white-normal">
@@ -564,6 +658,8 @@ const LandingPageContinue: NextPage = () => {
                 className="absolute top-[0px] left-[0.11px] w-[276px] h-[548px] object-cover"
                 alt=""
                 src="/group-52@2x.png"
+                width={100}
+                height={100}
               />
               <div className="absolute top-[367px] left-[28.11px] leading-[27.28px] font-black">
                 Accommodation
@@ -594,6 +690,8 @@ const LandingPageContinue: NextPage = () => {
                   className="absolute top-[0px] left-[0px] w-[276px] h-[548px] object-cover"
                   alt=""
                   src="/group-51@2x.png"
+                  width={100}
+                  height={100}
                 />
                 <div className="absolute w-[66.3%] top-[calc(50%_+_188px)] right-[16.7%] left-[16.99%] h-14">
                   <div className="absolute w-full top-[calc(50%_-_28px)] right-[0%] left-[0%] rounded-2xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-hayya-flat-corn-normal">
@@ -625,6 +723,8 @@ const LandingPageContinue: NextPage = () => {
                   className="absolute top-[0px] left-[0px] w-[277px] h-[548px] object-cover"
                   alt=""
                   src="/group-511@2x.png"
+                  width={100}
+                  height={100}
                 />
                 <div className="absolute w-[66.06%] top-[calc(50%_+_188px)] right-[17.01%] left-[16.93%] h-14">
                   <div className="absolute w-full top-[calc(50%_-_28px)] right-[0%] left-[0%] rounded-2xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-hayya-flat-corn-normal">
@@ -656,6 +756,8 @@ const LandingPageContinue: NextPage = () => {
                   className="absolute top-[0px] left-[0px] w-[277px] h-[548px] object-cover"
                   alt=""
                   src="/group-512@2x.png"
+                  width={100}
+                  height={100}
                 />
                 <div className="absolute w-[66.06%] top-[calc(50%_+_188px)] right-[17.01%] left-[16.93%] h-14">
                   <div className="absolute w-full top-[calc(50%_-_28px)] right-[0%] left-[0%] rounded-2xl box-border overflow-hidden flex flex-col items-center justify-center border-[1px] border-solid border-hayya-flat-corn-normal">
@@ -686,45 +788,67 @@ const LandingPageContinue: NextPage = () => {
           className="absolute h-[2.28%] w-[8.19%] top-[69.58%] right-[4.58%] bottom-[28.14%] left-[87.22%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/star5.svg"
+          width={100}
+          height={100}
         />
         <div className="absolute h-[0.35%] w-[1.11%] top-[33.46%] right-[49.51%] bottom-[66.2%] left-[49.38%]" />
         <Image
           className="absolute h-[0.35%] w-[44.79%] top-[33.47%] right-[28.33%] bottom-[66.18%] left-[26.88%] max-w-full overflow-hidden max-h-full"
           alt=""
           src="/group-51187.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[3034.67px] left-[639.67px] w-[161.16px] h-[8.66px]"
           alt=""
           src="/vector-2.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[3878.67px] left-[639.67px] w-[161.16px] h-[8.66px]"
           alt=""
           src="/vector-4.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[2009.67px] left-[645.67px] w-[161.16px] h-[8.66px]"
           alt=""
           src="/vector-3.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[2973px] left-[1219px] w-[124px] h-12"
           alt=""
           src="/group-51190.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[229px] left-[708px] w-[621px] h-[742px]"
           alt=""
           src="/group-51192.svg"
+          width={100}
+          height={100}
         />
         <Image
           className="absolute top-[303.67px] left-[638.67px] w-[161.16px] h-[8.66px]"
           alt=""
           src="/vector-51.svg"
+          width={100}
+          height={100}
         />
         <div className="absolute top-[185px] left-[626px] w-[186px] flex flex-row items-center justify-start gap-[8px] text-lg">
-          <Image className="relative w-4 h-4" alt="" src="/stars7.svg" />
+          <Image
+            className="relative w-4 h-4"
+            alt=""
+            src="/stars7.svg"
+            width={100}
+            height={100}
+          />
           <div className="relative tracking-[0.1em] leading-[20px] uppercase font-black">
             What you get
           </div>
@@ -744,6 +868,8 @@ const LandingPageContinue: NextPage = () => {
               className="absolute h-[10.67%] w-[4.07%] top-[45.5%] right-[7.61%] bottom-[43.83%] left-[88.32%] max-w-full overflow-hidden max-h-full opacity-[0.8]"
               alt=""
               src="/chevron.svg"
+              width={100}
+              height={100}
             />
             <div className="absolute h-[33.33%] w-[65.71%] top-[33.33%] right-[28.57%] bottom-[33.33%] left-[5.71%]">
               <div className="absolute top-[0%] left-[0%]">
@@ -786,6 +912,8 @@ const LandingPageContinue: NextPage = () => {
               className="absolute h-[10.67%] w-[4.07%] top-[45.5%] right-[7.61%] bottom-[43.83%] left-[88.32%] max-w-full overflow-hidden max-h-full opacity-[0.8]"
               alt=""
               src="/chevron1.svg"
+              width={100}
+              height={100}
             />
             <div className="absolute h-[33.33%] w-[65.71%] top-[33.33%] right-[28.57%] bottom-[33.33%] left-[5.71%]">
               <div className="absolute top-[0%] left-[0%]">
@@ -826,6 +954,8 @@ const LandingPageContinue: NextPage = () => {
                 className="absolute h-[27%] w-[26.07%] top-[0%] right-[37.18%] bottom-[73%] left-[36.75%] max-w-full overflow-hidden max-h-full"
                 alt=""
                 src="/group-77621.svg"
+                width={100}
+                height={100}
               />
               <div className="absolute h-[14.17%] w-[23.5%] top-[36.24%] right-[38.46%] bottom-[49.59%] left-[38.03%] rounded-2xl box-border flex flex-col py-1 px-2 items-center justify-center text-xs border-[1px] border-solid border-gainsboro">
                 <div className="flex flex-row items-center justify-center">
@@ -858,6 +988,8 @@ const LandingPageContinue: NextPage = () => {
                 className="absolute h-[27.11%] w-[23.83%] top-[0%] right-[37.89%] bottom-[72.89%] left-[38.28%] max-w-full overflow-hidden max-h-full"
                 alt=""
                 src="/group-7763.svg"
+                width={100}
+                height={100}
               />
               <div className="absolute h-[14.22%] w-[21.48%] top-[36%] right-[39.06%] bottom-[49.78%] left-[39.45%] rounded-2xl box-border flex flex-col py-1 px-2 items-center justify-center text-left text-xs border-[1px] border-solid border-gainsboro">
                 <div className="flex flex-row items-center justify-center">
@@ -892,6 +1024,8 @@ const LandingPageContinue: NextPage = () => {
                 className="absolute h-[27%] w-[26.07%] top-[0%] right-[37.18%] bottom-[73%] left-[36.75%] max-w-full overflow-hidden max-h-full"
                 alt=""
                 src="/group-77641.svg"
+                width={100}
+                height={100}
               />
               <div className="absolute top-[81.86px] left-[89px] rounded-2xl flex flex-col py-1 px-2 items-center justify-center text-xs border-[1px] border-solid border-gainsboro">
                 <div className="flex flex-row items-center justify-center">
@@ -917,11 +1051,15 @@ const LandingPageContinue: NextPage = () => {
             className="absolute top-[86.97px] left-[319.11px] w-[5.77px] h-[160.77px]"
             alt=""
             src="/line-3.svg"
+            width={100}
+            height={100}
           />
           <Image
             className="absolute top-[86.97px] left-[745.11px] w-[5.77px] h-[160.77px]"
             alt=""
             src="/line-4.svg"
+            width={100}
+            height={100}
           />
         </div>
       </div>
