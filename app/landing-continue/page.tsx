@@ -17,7 +17,7 @@ const LandingPageContinue: NextPage = () => {
       <Image
         className="absolute top-[0px] left-[0px] w-[1514px] h-[944px] object-cover"
         alt=""
-        src="/rectangle-29@2x.png"
+        src="/rectangle-29@2x.png" // Background Image
         width={100}
         height={100}
       />
@@ -318,7 +318,7 @@ const LandingPageContinue: NextPage = () => {
             <Image
               className="self-stretch relative max-h-full w-[300px] overflow-hidden shrink-0"
               alt=""
-              src="/hayya-logo.svg"
+              src="/logo.svg"
               width={100}
               height={100}
             />
@@ -329,14 +329,14 @@ const LandingPageContinue: NextPage = () => {
               <Image
                 className="relative w-6 h-6"
                 alt=""
-                src="/social--facebook.svg"
+                src="/facebook.svg"
                 width={100}
                 height={100}
               />
               <Image
                 className="relative w-6 h-6"
                 alt=""
-                src="/social--instagram.svg"
+                src="/instagram.svg"
                 width={100}
                 height={100}
               />
@@ -345,7 +345,7 @@ const LandingPageContinue: NextPage = () => {
                 <Image
                   className="absolute h-[64.47%] w-[91.67%] top-[16.67%] right-[4.17%] bottom-[18.86%] left-[4.17%] max-w-full overflow-hidden max-h-full"
                   alt=""
-                  src="/vector.svg"
+                  src="/youtube.svg"
                   width={100}
                   height={100}
                 />
@@ -353,7 +353,7 @@ const LandingPageContinue: NextPage = () => {
               <Image
                 className="relative w-6 h-6"
                 alt=""
-                src="/social--twitter.svg"
+                src="/twitter.svg"
                 width={100}
                 height={100}
               />
@@ -392,14 +392,14 @@ const LandingPageContinue: NextPage = () => {
             <Image
               className="absolute h-[103.12%] w-[139.43%] top-[-11.05%] right-[-47.45%] bottom-[7.94%] left-[8.02%] max-w-full overflow-hidden max-h-full object-cover"
               alt=""
-              src="/screen@2x.png"
+              src="/screen.svg"
               width={100}
               height={100}
             />
             <Image
               className="absolute h-[110.35%] w-[154.96%] top-[-14.87%] right-[-54.96%] bottom-[4.53%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
               alt=""
-              src="/iphone-x@2x.png"
+              src="/screen.svg"
               width={100}
               height={100}
             />
