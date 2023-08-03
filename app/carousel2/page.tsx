@@ -63,7 +63,7 @@ const HeroCarousel2: NextPage = () => {
       <Image
         className="absolute top-[138px] left-[1237px] w-[201.05px] h-[285.82px] object-cover opacity-[0.7] cursor-pointer"
         alt=""
-        src="/afc@2x.png"
+        src="/afc1.svg"
         onClick={onAFCImageClick}
         width={100}
         height={100}
@@ -71,7 +71,7 @@ const HeroCarousel2: NextPage = () => {
       <Image
         className="absolute top-[495px] left-[1237px] w-[200.63px] h-[265px] object-cover"
         alt=""
-        src="/expo-2023@2x.png"
+        src="/expo1.svg"
         width={100}
         height={100}
       />
@@ -150,7 +150,7 @@ const HeroCarousel2: NextPage = () => {
               <Image
                 className="relative w-4 h-4 overflow-hidden shrink-0"
                 alt=""
-                src="/general--chevron-down.svg"
+                src="/chevron-down.svg"
                 width={100}
                 height={100}
               />
@@ -166,7 +166,7 @@ const HeroCarousel2: NextPage = () => {
               <Image
                 className="relative w-4 h-4"
                 alt=""
-                src="/medical--eye.svg"
+                src="/eye.svg"
                 width={100}
                 height={100}
               />
@@ -176,7 +176,7 @@ const HeroCarousel2: NextPage = () => {
               <Image
                 className="relative w-4 h-4 overflow-hidden shrink-0"
                 alt=""
-                src="/general--chevron-down1.svg"
+                src="/chevron-down.svg"
                 width={100}
                 height={100}
               />
@@ -198,7 +198,7 @@ const HeroCarousel2: NextPage = () => {
             <Image
               className="relative w-1.5 h-1.5"
               alt=""
-              src="/stars1.svg"
+              src="/stars.svg"
               width={100}
               height={100}
             />
