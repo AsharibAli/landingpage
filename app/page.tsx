@@ -17,7 +17,7 @@ const HeroCarousel1: NextPage = () => {
       <Image
         className="absolute top-[0px] left-[0px] w-[1514px] h-[944px] object-cover"
         alt=""
-        src="/rectangle-29.png"
+        src="/rectangle-30.png"
         width={100}
         height={100}
       />
